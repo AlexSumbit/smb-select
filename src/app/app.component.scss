@@ -1,0 +1,27 @@
+.form {
+    display: grid;
+    width: 600px;
+    margin: 200px auto 0 auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+.select {
+    background-color: #fff;
+    border: 2px solid tomato;
+    color: tomato;
+    font-family: sans-serif;
+
+    &:after {
+        position: absolute;
+        content: '';
+        display: block;
+        width: 8px;
+        height: 8px;
+        border-bottom: 2px solid tomato;
+        border-left: 2px solid tomato;
+        transform: rotateZ(-45deg);
+        right: 15px;
+        top: 13px;
+    }
+}
