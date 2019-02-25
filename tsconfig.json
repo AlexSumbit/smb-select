@@ -16,6 +16,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "smb-select": [
+        "dist/smb-select"
+      ],
+      "smb-select/*": [
+        "dist/smb-select/*"
+      ]
+    }
   }
 }
