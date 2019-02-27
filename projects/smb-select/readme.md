@@ -9,7 +9,7 @@ Easy styleable custom select component for Angular 6+.
 Import `SmbSelectModule` in your `AppModule`
 
 In your component: 
-```
+``` html
 <smb-select>
     <smb-select-header class="select">Placeholder</smb-select-header>
     <smb-select-dropdown>
