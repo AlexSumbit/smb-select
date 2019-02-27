@@ -1,6 +1,17 @@
 {
   "name": "smb-select",
-  "version": "0.0.1",
+  "description": "Easy styleable custom select component for Angular 6+",
+  "keywords": ["Angular", "Custom select", "Angular 6", "Select component"],
+  "author": {
+    "name": "Alexander Domanskyi",
+    "email": "alexsumbit@gmail.com"
+  },
+  "version": "0.5.0",
+  "homepage": "https://github.com/AlexSumbit/smb-select",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexSumbit/smb-select/issues"
+  },
   "peerDependencies": {
     "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
     "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
